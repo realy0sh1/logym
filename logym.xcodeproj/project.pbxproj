@@ -26,26 +26,6 @@
 		E0E411FC2C529F89003E8BC5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FB2C529F89003E8BC5 /* Exercise.swift */; };
 		E0E411FE2C52B03A003E8BC5 /* ExerciseTemplateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FD2C52B03A003E8BC5 /* ExerciseTemplateListView.swift */; };
 		E0E412002C52B0FA003E8BC5 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FF2C52B0FA003E8BC5 /* StatisticView.swift */; };
-		E0FB80E12C5313B7001A08A1 /* logymVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB80E02C5313B7001A08A1 /* logymVisionOSApp.swift */; };
-		E0FB80E82C5313B8001A08A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FB80E72C5313B8001A08A1 /* Preview Assets.xcassets */; };
-		E0FB80ED2C531441001A08A1 /* ExerciseTemplateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FD2C52B03A003E8BC5 /* ExerciseTemplateListView.swift */; };
-		E0FB80EE2C531441001A08A1 /* TimeExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E62C529E62003E8BC5 /* TimeExerciseView.swift */; };
-		E0FB80EF2C531441001A08A1 /* ManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F42C529F40003E8BC5 /* ManagementView.swift */; };
-		E0FB80F02C531441001A08A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411D12C529D23003E8BC5 /* ContentView.swift */; };
-		E0FB80F12C531441001A08A1 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E22C529E35003E8BC5 /* WorkoutView.swift */; };
-		E0FB80F22C531441001A08A1 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E42C529E4A003E8BC5 /* ExerciseView.swift */; };
-		E0FB80F32C531441001A08A1 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FF2C52B0FA003E8BC5 /* StatisticView.swift */; };
-		E0FB80F42C531441001A08A1 /* TimeExerciseGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411EE2C529EEF003E8BC5 /* TimeExerciseGraphView.swift */; };
-		E0FB80F52C531441001A08A1 /* AddTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411EA2C529E99003E8BC5 /* AddTemplateView.swift */; };
-		E0FB80F62C531441001A08A1 /* StreakInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F22C529F2A003E8BC5 /* StreakInfoView.swift */; };
-		E0FB80F72C531441001A08A1 /* StrengthExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E82C529E7D003E8BC5 /* StrengthExerciseView.swift */; };
-		E0FB80F82C531441001A08A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E02C529E1D003E8BC5 /* HomeView.swift */; };
-		E0FB80F92C531441001A08A1 /* StrengthExerciseGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F02C529F0F003E8BC5 /* StrengthExerciseGraphView.swift */; };
-		E0FB80FA2C531444001A08A1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FB2C529F89003E8BC5 /* Exercise.swift */; };
-		E0FB80FB2C531444001A08A1 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F62C529F57003E8BC5 /* Workout.swift */; };
-		E0FB80FC2C531444001A08A1 /* ExerciseTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F92C529F76003E8BC5 /* ExerciseTemplate.swift */; };
-		E0FB80FD2C53148D001A08A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E411D32C529D24003E8BC5 /* Assets.xcassets */; };
-		E0FB80FF2C531643001A08A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FB80FE2C531643001A08A1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,22 +51,10 @@
 		E0E411FB2C529F89003E8BC5 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		E0E411FD2C52B03A003E8BC5 /* ExerciseTemplateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTemplateListView.swift; sourceTree = "<group>"; };
 		E0E411FF2C52B0FA003E8BC5 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
-		E0FB80DC2C5313B7001A08A1 /* logymVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logymVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0FB80E02C5313B7001A08A1 /* logymVisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logymVisionOSApp.swift; sourceTree = "<group>"; };
-		E0FB80E72C5313B8001A08A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E0FB80E92C5313B8001A08A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0FB80FE2C531643001A08A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E0E411C92C529D23003E8BC5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0FB80D92C5313B7001A08A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -100,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				E0E411CE2C529D23003E8BC5 /* logym */,
-				E0FB80DD2C5313B7001A08A1 /* logymVisionOS */,
 				E0E411CD2C529D23003E8BC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				E0E411CC2C529D23003E8BC5 /* logym.app */,
-				E0FB80DC2C5313B7001A08A1 /* logymVisionOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,25 +132,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E0FB80DD2C5313B7001A08A1 /* logymVisionOS */ = {
-			isa = PBXGroup;
-			children = (
-				E0FB80E02C5313B7001A08A1 /* logymVisionOSApp.swift */,
-				E0FB80E92C5313B8001A08A1 /* Info.plist */,
-				E0FB80FE2C531643001A08A1 /* Assets.xcassets */,
-				E0FB80E62C5313B8001A08A1 /* Preview Content */,
-			);
-			path = logymVisionOS;
-			sourceTree = "<group>";
-		};
-		E0FB80E62C5313B8001A08A1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E0FB80E72C5313B8001A08A1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,25 +152,6 @@
 			productReference = E0E411CC2C529D23003E8BC5 /* logym.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0FB80DB2C5313B7001A08A1 /* logymVisionOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0FB80EC2C5313B8001A08A1 /* Build configuration list for PBXNativeTarget "logymVisionOS" */;
-			buildPhases = (
-				E0FB80D82C5313B7001A08A1 /* Sources */,
-				E0FB80D92C5313B7001A08A1 /* Frameworks */,
-				E0FB80DA2C5313B7001A08A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = logymVisionOS;
-			packageProductDependencies = (
-			);
-			productName = logymVisionOS;
-			productReference = E0FB80DC2C5313B7001A08A1 /* logymVisionOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,9 +163,6 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					E0E411CB2C529D23003E8BC5 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					E0FB80DB2C5313B7001A08A1 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -256,7 +181,6 @@
 			projectRoot = "";
 			targets = (
 				E0E411CB2C529D23003E8BC5 /* logym */,
-				E0FB80DB2C5313B7001A08A1 /* logymVisionOS */,
 			);
 		};
 /* End PBXProject section */
@@ -268,16 +192,6 @@
 			files = (
 				E0E411D72C529D24003E8BC5 /* Preview Assets.xcassets in Resources */,
 				E0E411D42C529D24003E8BC5 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0FB80DA2C5313B7001A08A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0FB80E82C5313B8001A08A1 /* Preview Assets.xcassets in Resources */,
-				E0FB80FF2C531643001A08A1 /* Assets.xcassets in Resources */,
-				E0FB80FD2C53148D001A08A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,30 +219,6 @@
 				E0E411E52C529E4A003E8BC5 /* ExerciseView.swift in Sources */,
 				E0E411EF2C529EEF003E8BC5 /* TimeExerciseGraphView.swift in Sources */,
 				E0E411E72C529E62003E8BC5 /* TimeExerciseView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0FB80D82C5313B7001A08A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0FB80E12C5313B7001A08A1 /* logymVisionOSApp.swift in Sources */,
-				E0FB80ED2C531441001A08A1 /* ExerciseTemplateListView.swift in Sources */,
-				E0FB80EE2C531441001A08A1 /* TimeExerciseView.swift in Sources */,
-				E0FB80EF2C531441001A08A1 /* ManagementView.swift in Sources */,
-				E0FB80F02C531441001A08A1 /* ContentView.swift in Sources */,
-				E0FB80F12C531441001A08A1 /* WorkoutView.swift in Sources */,
-				E0FB80F22C531441001A08A1 /* ExerciseView.swift in Sources */,
-				E0FB80F32C531441001A08A1 /* StatisticView.swift in Sources */,
-				E0FB80F42C531441001A08A1 /* TimeExerciseGraphView.swift in Sources */,
-				E0FB80F52C531441001A08A1 /* AddTemplateView.swift in Sources */,
-				E0FB80F62C531441001A08A1 /* StreakInfoView.swift in Sources */,
-				E0FB80F72C531441001A08A1 /* StrengthExerciseView.swift in Sources */,
-				E0FB80F82C531441001A08A1 /* HomeView.swift in Sources */,
-				E0FB80F92C531441001A08A1 /* StrengthExerciseGraphView.swift in Sources */,
-				E0FB80FA2C531444001A08A1 /* Exercise.swift in Sources */,
-				E0FB80FB2C531444001A08A1 /* Workout.swift in Sources */,
-				E0FB80FC2C531444001A08A1 /* ExerciseTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +285,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
 			};
 			name = Debug;
 		};
@@ -451,6 +342,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
 			};
 			name = Release;
 		};
@@ -526,62 +418,6 @@
 			};
 			name = Release;
 		};
-		E0FB80EA2C5313B8001A08A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"logymVisionOS/Preview Content\"";
-				DEVELOPMENT_TEAM = UJPX797J69;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logymVisionOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 1.2;
-			};
-			name = Debug;
-		};
-		E0FB80EB2C5313B8001A08A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"logymVisionOS/Preview Content\"";
-				DEVELOPMENT_TEAM = UJPX797J69;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logymVisionOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 1.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,15 +435,6 @@
 			buildConfigurations = (
 				E0E411DB2C529D24003E8BC5 /* Debug */,
 				E0E411DC2C529D24003E8BC5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0FB80EC2C5313B8001A08A1 /* Build configuration list for PBXNativeTarget "logymVisionOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0FB80EA2C5313B8001A08A1 /* Debug */,
-				E0FB80EB2C5313B8001A08A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
