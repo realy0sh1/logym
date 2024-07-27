@@ -62,7 +62,7 @@ struct StrengthExerciseView: View {
                         Text("\(String(format: "%.1f", weight)) kg")
                             .fixedSize()
                             .foregroundStyle(Color("superDarkGray"))
-                        Stepper("", value: $weight, in: 0...300, step: 0.5)
+                        Stepper("", value: $weight, in: 0...500, step: 0.5)
                             .labelsHidden()
                     }
                 }
@@ -81,7 +81,7 @@ struct StrengthExerciseView: View {
                                 Text("\(set.weightOrTime.formatted()) kg")
                                     .foregroundStyle(Color("offWhite"))
                             }
-                            .onTapGesture(perform: {
+                            .onLongPressGesture(perform: {
                                 withAnimation {
                                     exercise.sets.removeAll(where: {$0.id == set.id})
                                     // load values from last set

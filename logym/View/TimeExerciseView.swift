@@ -54,7 +54,7 @@ struct TimeExerciseView: View {
                         Text("\(String(format: "%.0f", time)) seconds")
                             .fixedSize()
                             .foregroundStyle(Color("superDarkGray"))
-                        Stepper("", value: $time, in: 0...300, step: 10.0)
+                        Stepper("", value: $time, in: 0...3600, step: 10.0)
                             .labelsHidden()
                     }
                 }
@@ -71,7 +71,7 @@ struct TimeExerciseView: View {
                                 Text("\(set.weightOrTime.formatted()) s")
                                     .foregroundStyle(Color("offWhite"))
                             }
-                            .onTapGesture(perform: {
+                            .onLongPressGesture(perform: {
                                 withAnimation {
                                     exercise.sets.removeAll(where: {$0.id == set.id})
                                     // load values from last set

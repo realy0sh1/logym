@@ -36,19 +36,11 @@ struct ExerciseTemplateListView: View {
                     }
                 }
             }
-            .onDelete(perform: deleteTemplate)
             .listRowBackground(Color("almostBlack"))
         }
         .scrollContentBackground(.hidden)
         .background(Color("superLightGray"))
         .navigationTitle("Statistics")
-    }
-    
-    func deleteTemplate(_ indexSet: IndexSet) {
-        for index in indexSet {
-            let template =  allExerciseTemplates[index]
-            modelContext.delete(template)
-        }
     }
 }
 
