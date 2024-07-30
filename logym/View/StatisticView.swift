@@ -16,6 +16,7 @@ struct StatisticView: View {
     @Query(sort: \ExerciseTemplate.name, order: .forward) private var allExerciseTemplates: [ExerciseTemplate]
     
     @State private var showSteakInfo: Bool = false
+    @State private var showDonate: Bool = false
     
     var streak: Int {
         // # workouts in a row with less than 1 week between
@@ -54,10 +55,22 @@ struct StatisticView: View {
                         //.searchable(text: $searchText)
                 }
             }
+            .toolbar {
+                ToolbarItemGroup(placement: .topBarTrailing) {
+                    Button() {
+                        showDonate = true
+                    } label: {
+                        Image(systemName: "giftcard")
+                    }
+                }
+            }
         }
         .preferredColorScheme(.dark)
         .sheet(isPresented: $showSteakInfo) {
             StreakInfoView()
+        }
+        .sheet(isPresented: $showDonate) {
+            DonateView()
         }
     }
     

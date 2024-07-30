@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0295A652C5938AD0026CE15 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0295A642C5938AD0026CE15 /* DonateView.swift */; };
 		E0E411D02C529D23003E8BC5 /* logymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411CF2C529D23003E8BC5 /* logymApp.swift */; };
 		E0E411D22C529D23003E8BC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411D12C529D23003E8BC5 /* ContentView.swift */; };
 		E0E411D42C529D24003E8BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E411D32C529D24003E8BC5 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0295A642C5938AD0026CE15 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
 		E0E411CC2C529D23003E8BC5 /* logym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E411CF2C529D23003E8BC5 /* logymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logymApp.swift; sourceTree = "<group>"; };
 		E0E411D12C529D23003E8BC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				E0E411EE2C529EEF003E8BC5 /* TimeExerciseGraphView.swift */,
 				E0E411F02C529F0F003E8BC5 /* StrengthExerciseGraphView.swift */,
 				E0E411F22C529F2A003E8BC5 /* StreakInfoView.swift */,
+				E0295A642C5938AD0026CE15 /* DonateView.swift */,
 				E0E411F42C529F40003E8BC5 /* ManagementView.swift */,
 			);
 			path = View;
@@ -213,6 +216,7 @@
 				E0E411FA2C529F76003E8BC5 /* ExerciseTemplate.swift in Sources */,
 				E0E411E32C529E35003E8BC5 /* WorkoutView.swift in Sources */,
 				E0E411D02C529D23003E8BC5 /* logymApp.swift in Sources */,
+				E0295A652C5938AD0026CE15 /* DonateView.swift in Sources */,
 				E0E411FE2C52B03A003E8BC5 /* ExerciseTemplateListView.swift in Sources */,
 				E0E411F72C529F57003E8BC5 /* Workout.swift in Sources */,
 				E0E411F52C529F40003E8BC5 /* ManagementView.swift in Sources */,
@@ -369,7 +373,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
@@ -405,7 +409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";

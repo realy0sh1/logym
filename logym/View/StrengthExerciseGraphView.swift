@@ -43,7 +43,7 @@ struct StrengthExerciseGraphView: View {
                         .rotationEffect(Angle(degrees: 45))
                         .foregroundStyle(Color("superDarkGray"))
                     
-                    Text("first set in kg")
+                    Text("first set in \(Locale.current.measurementSystem == .metric ? "kg" : "lb")")
                         .foregroundColor(Color("offWhite"))
                 }
                 
@@ -53,7 +53,7 @@ struct StrengthExerciseGraphView: View {
                         .rotationEffect(Angle(degrees: 45))
                         .foregroundStyle(Color("brightOrange"))
                     
-                    Text("last set in kg")
+                    Text("last set in \(Locale.current.measurementSystem == .metric ? "kg" : "lb")")
                         .foregroundColor(Color("offWhite"))
                 }
             }

@@ -59,10 +59,10 @@ struct StrengthExerciseView: View {
                             .labelsHidden()
                     }
                     HStack {
-                        Text("\(String(format: "%.1f", weight)) kg")
+                        Text(String(format: "%.1f %@", weight, Locale.current.measurementSystem == .metric ? "kg" : "lb" ))
                             .fixedSize()
                             .foregroundStyle(Color("superDarkGray"))
-                        Stepper("", value: $weight, in: 0...500, step: 0.5)
+                        Stepper("", value: $weight, in: 0...999, step: 0.5)
                             .labelsHidden()
                     }
                 }
@@ -78,7 +78,7 @@ struct StrengthExerciseView: View {
                             VStack {
                                 Text("\(set.reps)x")
                                     .foregroundStyle(Color("offWhite"))
-                                Text("\(set.weightOrTime.formatted()) kg")
+                                Text(String(format: "%.0f %@", set.weightOrTime, Locale.current.measurementSystem == .metric ? "kg" : "lb" ))
                                     .foregroundStyle(Color("offWhite"))
                             }
                             .onLongPressGesture(perform: {
