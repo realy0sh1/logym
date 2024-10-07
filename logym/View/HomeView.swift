@@ -16,8 +16,10 @@ struct HomeView: View {
     @State private var path: [Workout] = []
     
     init() {
+        #if !os(watchOS)
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(named: "almostBlack") as Any]
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(named: "offWhite") as Any]
+        #endif
     }
     
     var body: some View {
@@ -32,7 +34,11 @@ struct HomeView: View {
                     } label: {
                         Text("Start")
                             .foregroundStyle(Color("offWhite"))
+                            #if os(watchOS)
+                            .frame(width: 150, height: 60)
+                            #else
                             .frame(width: 300, height: 60)
+                            #endif
                             .background(Color("brightOrange"))
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                     }
@@ -45,9 +51,15 @@ struct HomeView: View {
                                 // we passing the data workout to the navigation link (needs to be Hashible)
                                 NavigationLink(value: workout) {
                                     Text("Training from \(workout.startDate.formatted())")
+                                    #if os(watchOS)
+                                        .foregroundStyle(Color("almostBlack"))
+                                    #else
                                         .foregroundStyle(Color("offWhite"))
+                                    #endif
                                 }
+                                #if !os(watchOS)
                                 .listRowBackground(Color("almostBlack"))
+                                #endif
                             }
                         }
                     }

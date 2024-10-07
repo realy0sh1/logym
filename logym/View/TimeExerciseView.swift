@@ -41,25 +41,39 @@ struct TimeExerciseView: View {
 
     var body: some View {
         VStack {
-            HStack {
-                Image(systemName: allSetsDone ? "checkmark.circle" : "\(setsLeft).circle")
-                    .font(.largeTitle)
-                    .foregroundStyle(allSetsDone ? Color("babyBlue") : Color("superDarkGray"))
-                    .symbolEffect(.bounce, value: allSetsDone)
-                Text(exercise.template?.name ?? "Unknown template")
-                    .foregroundStyle(Color("superDarkGray"))
-                Spacer()
-                VStack(alignment: .trailing) {
-                    HStack {
-                        Text("\(String(format: "%.0f", time)) seconds")
-                            .fixedSize()
-                            .foregroundStyle(Color("superDarkGray"))
-                        Stepper("", value: $time, in: 0...3600, step: 10.0)
-                            .labelsHidden()
+            ZStack {
+                HStack {
+                    Image(systemName: allSetsDone ? "checkmark.circle" : "\(setsLeft).circle")
+                        .font(.largeTitle)
+                        .foregroundStyle(allSetsDone ? Color("babyBlue") : Color("superDarkGray"))
+                        .symbolEffect(.bounce, value: allSetsDone)
+                    
+                    Spacer()
+                }
+                
+                HStack {
+                    Spacer()
+                    VStack(alignment: .trailing) {
+                        HStack {
+                            #if os(watchOS)
+                            Text("\(String(format: "%.0f", time)) s")
+                                .fixedSize()
+                                .foregroundStyle(Color("superDarkGray"))
+                            #else
+                            Text("\(String(format: "%.0f", time)) seconds")
+                                .fixedSize()
+                                .foregroundStyle(Color("superDarkGray"))
+                            #endif
+                            Stepper("", value: $time, in: 0...3600, step: 10.0)
+                                .labelsHidden()
+                            #if os(watchOS)
+                                .frame(width: 70)
+                            #endif
+                        }
                     }
                 }
             }
-            
+
             Divider()
             
             HStack {

@@ -38,6 +38,7 @@ struct StreakInfoView: View {
                     .onDelete(perform: deleteTemplate)
                 }
             }
+            #if !os(watchOS)
             .toolbar {
                 ToolbarItem {
                     Button {
@@ -47,6 +48,7 @@ struct StreakInfoView: View {
                     }
                 }
             }
+            #endif
             .navigationTitle("Streak")
             .navigationBarTitleDisplayMode(.inline)
         }

@@ -18,7 +18,7 @@ struct Set: Codable, Identifiable {
 
 @Model
 class Exercise: Identifiable {
-    let id: UUID = UUID()
+    var id: UUID = UUID()
     var startDate: Date = Date.now
     var sets: [Set] = []
     

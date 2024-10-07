@@ -29,7 +29,7 @@ struct WorkoutView: View {
                     Text("Workout deleted").onAppear { dismiss() }
                 }
                 
-                Section("select template") {
+                Section {
                     HStack {
                         Picker("select template", selection: $selectedTemplate) {
                             Text("create new").tag(nil as ExerciseTemplate?)
@@ -58,12 +58,17 @@ struct WorkoutView: View {
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
                         }
                         .buttonStyle(PlainButtonStyle())
+                        #if os(watchOS)
+                        .padding(.vertical)
+                        #endif
                     }
+                    #if !os(watchOS)
                     .listRowBackground(Color("brightOrange"))
+                    #endif
                 }
                 
                 ForEach(workout.exercises?.sorted { $0.startDate > $1.startDate } ?? []) { exercise in
-                    Section() {
+                    Section(exercise.template?.name ?? "") {
                             ExerciseView(exercise: exercise)
                                 .swipeActions {
                                     Button(role: .destructive) {
@@ -75,7 +80,9 @@ struct WorkoutView: View {
                                     }
                                 }
                         }
+                    #if !os(watchOS)
                     .listRowBackground(Color("offWhite"))
+                    #endif
                 }
             }
             .preferredColorScheme(.dark)

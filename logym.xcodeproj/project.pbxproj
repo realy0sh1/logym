@@ -3,11 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E0295A652C5938AD0026CE15 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0295A642C5938AD0026CE15 /* DonateView.swift */; };
+		E07691032CB41EE900D23362 /* logym watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E07690F62CB41EE800D23362 /* logym watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E07691092CB41F0100D23362 /* ExerciseTemplateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FD2C52B03A003E8BC5 /* ExerciseTemplateListView.swift */; };
+		E076910A2CB41F0100D23362 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E22C529E35003E8BC5 /* WorkoutView.swift */; };
+		E076910B2CB41F0100D23362 /* StrengthExerciseGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F02C529F0F003E8BC5 /* StrengthExerciseGraphView.swift */; };
+		E076910C2CB41F0100D23362 /* TimeExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E62C529E62003E8BC5 /* TimeExerciseView.swift */; };
+		E076910E2CB41F0100D23362 /* TimeExerciseGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411EE2C529EEF003E8BC5 /* TimeExerciseGraphView.swift */; };
+		E076910F2CB41F0100D23362 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E02C529E1D003E8BC5 /* HomeView.swift */; };
+		E07691102CB41F0100D23362 /* AddTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411EA2C529E99003E8BC5 /* AddTemplateView.swift */; };
+		E07691112CB41F0100D23362 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FF2C52B0FA003E8BC5 /* StatisticView.swift */; };
+		E07691122CB41F0100D23362 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E42C529E4A003E8BC5 /* ExerciseView.swift */; };
+		E07691142CB41F0100D23362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411D12C529D23003E8BC5 /* ContentView.swift */; };
+		E07691152CB41F0100D23362 /* StrengthExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E82C529E7D003E8BC5 /* StrengthExerciseView.swift */; };
+		E07691162CB41F0900D23362 /* ExerciseTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F92C529F76003E8BC5 /* ExerciseTemplate.swift */; };
+		E07691172CB41F0900D23362 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FB2C529F89003E8BC5 /* Exercise.swift */; };
+		E07691182CB41F0900D23362 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F62C529F57003E8BC5 /* Workout.swift */; };
+		E07691192CB41F6200D23362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E411D32C529D24003E8BC5 /* Assets.xcassets */; };
+		E076911A2CB41F9700D23362 /* StreakInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F22C529F2A003E8BC5 /* StreakInfoView.swift */; };
+		E07691342CB4239D00D23362 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E42C529E4A003E8BC5 /* ExerciseView.swift */; };
+		E07691352CB4239D00D23362 /* StreakInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F22C529F2A003E8BC5 /* StreakInfoView.swift */; };
+		E07691362CB4239D00D23362 /* TimeExerciseGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411EE2C529EEF003E8BC5 /* TimeExerciseGraphView.swift */; };
+		E07691372CB4239D00D23362 /* ExerciseTemplateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FD2C52B03A003E8BC5 /* ExerciseTemplateListView.swift */; };
+		E07691382CB4239D00D23362 /* ManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F42C529F40003E8BC5 /* ManagementView.swift */; };
+		E07691392CB4239D00D23362 /* AddTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411EA2C529E99003E8BC5 /* AddTemplateView.swift */; };
+		E076913A2CB4239D00D23362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411D12C529D23003E8BC5 /* ContentView.swift */; };
+		E076913B2CB4239D00D23362 /* StrengthExerciseGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F02C529F0F003E8BC5 /* StrengthExerciseGraphView.swift */; };
+		E076913C2CB4239D00D23362 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FF2C52B0FA003E8BC5 /* StatisticView.swift */; };
+		E076913D2CB4239D00D23362 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0295A642C5938AD0026CE15 /* DonateView.swift */; };
+		E076913E2CB4239D00D23362 /* TimeExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E62C529E62003E8BC5 /* TimeExerciseView.swift */; };
+		E076913F2CB4239D00D23362 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E02C529E1D003E8BC5 /* HomeView.swift */; };
+		E07691402CB4239D00D23362 /* StrengthExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E82C529E7D003E8BC5 /* StrengthExerciseView.swift */; };
+		E07691412CB4239D00D23362 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411E22C529E35003E8BC5 /* WorkoutView.swift */; };
+		E07691422CB423B200D23362 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F62C529F57003E8BC5 /* Workout.swift */; };
+		E07691432CB423EC00D23362 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FB2C529F89003E8BC5 /* Exercise.swift */; };
+		E07691442CB423EC00D23362 /* ExerciseTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411F92C529F76003E8BC5 /* ExerciseTemplate.swift */; };
+		E07691452CB4277100D23362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E411D32C529D24003E8BC5 /* Assets.xcassets */; };
 		E0E411D02C529D23003E8BC5 /* logymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411CF2C529D23003E8BC5 /* logymApp.swift */; };
 		E0E411D22C529D23003E8BC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411D12C529D23003E8BC5 /* ContentView.swift */; };
 		E0E411D42C529D24003E8BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E411D32C529D24003E8BC5 /* Assets.xcassets */; };
@@ -29,8 +64,35 @@
 		E0E412002C52B0FA003E8BC5 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E411FF2C52B0FA003E8BC5 /* StatisticView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E07691012CB41EE900D23362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E411C42C529D23003E8BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07690F52CB41EE800D23362;
+			remoteInfo = "logym watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E07691072CB41EE900D23362 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E07691032CB41EE900D23362 /* logym watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E0295A642C5938AD0026CE15 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
+		E07690D02CB4193C00D23362 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		E07690F62CB41EE800D23362 /* logym watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "logym watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07691222CB4233B00D23362 /* logym vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "logym vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E411CC2C529D23003E8BC5 /* logym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E411CF2C529D23003E8BC5 /* logymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logymApp.swift; sourceTree = "<group>"; };
 		E0E411D12C529D23003E8BC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +117,43 @@
 		E0E411FF2C52B0FA003E8BC5 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E076911D2CB4217600D23362 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"logym-watch-Watch-App-Info.plist",
+			);
+			target = E07690F52CB41EE800D23362 /* logym watch Watch App */;
+		};
+		E07691302CB4233E00D23362 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E07691212CB4233B00D23362 /* logym vision */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E07690F72CB41EE800D23362 /* logym watch Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E076911D2CB4217600D23362 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "logym watch Watch App"; sourceTree = "<group>"; };
+		E07691232CB4233B00D23362 /* logym vision */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E07691302CB4233E00D23362 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "logym vision"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		E07690F32CB41EE800D23362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E076911F2CB4233B00D23362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0E411C92C529D23003E8BC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,10 +164,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E07690CF2CB4193C00D23362 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E07690D02CB4193C00D23362 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
 		E0E411C32C529D23003E8BC5 = {
 			isa = PBXGroup;
 			children = (
 				E0E411CE2C529D23003E8BC5 /* logym */,
+				E07690CF2CB4193C00D23362 /* Packages */,
+				E07690F72CB41EE800D23362 /* logym watch Watch App */,
+				E07691232CB4233B00D23362 /* logym vision */,
 				E0E411CD2C529D23003E8BC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				E0E411CC2C529D23003E8BC5 /* logym.app */,
+				E07690F62CB41EE800D23362 /* logym watch Watch App.app */,
+				E07691222CB4233B00D23362 /* logym vision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +249,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E07690F52CB41EE800D23362 /* logym watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07691042CB41EE900D23362 /* Build configuration list for PBXNativeTarget "logym watch Watch App" */;
+			buildPhases = (
+				E07690F22CB41EE800D23362 /* Sources */,
+				E07690F32CB41EE800D23362 /* Frameworks */,
+				E07690F42CB41EE800D23362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E07690F72CB41EE800D23362 /* logym watch Watch App */,
+			);
+			name = "logym watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "logym watch Watch App";
+			productReference = E07690F62CB41EE800D23362 /* logym watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E07691212CB4233B00D23362 /* logym vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07691312CB4233E00D23362 /* Build configuration list for PBXNativeTarget "logym vision" */;
+			buildPhases = (
+				E076911E2CB4233B00D23362 /* Sources */,
+				E076911F2CB4233B00D23362 /* Frameworks */,
+				E07691202CB4233B00D23362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E07691232CB4233B00D23362 /* logym vision */,
+			);
+			name = "logym vision";
+			packageProductDependencies = (
+			);
+			productName = "logym vision";
+			productReference = E07691222CB4233B00D23362 /* logym vision.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E0E411CB2C529D23003E8BC5 /* logym */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0E411DA2C529D24003E8BC5 /* Build configuration list for PBXNativeTarget "logym" */;
@@ -145,10 +300,12 @@
 				E0E411C82C529D23003E8BC5 /* Sources */,
 				E0E411C92C529D23003E8BC5 /* Frameworks */,
 				E0E411CA2C529D23003E8BC5 /* Resources */,
+				E07691072CB41EE900D23362 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E07691022CB41EE900D23362 /* PBXTargetDependency */,
 			);
 			name = logym;
 			productName = logym;
@@ -162,9 +319,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					E07690F52CB41EE800D23362 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E07691212CB4233B00D23362 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					E0E411CB2C529D23003E8BC5 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -184,11 +347,29 @@
 			projectRoot = "";
 			targets = (
 				E0E411CB2C529D23003E8BC5 /* logym */,
+				E07690F52CB41EE800D23362 /* logym watch Watch App */,
+				E07691212CB4233B00D23362 /* logym vision */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E07690F42CB41EE800D23362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07691192CB41F6200D23362 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07691202CB4233B00D23362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07691452CB4277100D23362 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0E411CA2C529D23003E8BC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +382,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E07690F22CB41EE800D23362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E076911A2CB41F9700D23362 /* StreakInfoView.swift in Sources */,
+				E07691092CB41F0100D23362 /* ExerciseTemplateListView.swift in Sources */,
+				E076910A2CB41F0100D23362 /* WorkoutView.swift in Sources */,
+				E076910B2CB41F0100D23362 /* StrengthExerciseGraphView.swift in Sources */,
+				E076910C2CB41F0100D23362 /* TimeExerciseView.swift in Sources */,
+				E076910E2CB41F0100D23362 /* TimeExerciseGraphView.swift in Sources */,
+				E076910F2CB41F0100D23362 /* HomeView.swift in Sources */,
+				E07691102CB41F0100D23362 /* AddTemplateView.swift in Sources */,
+				E07691162CB41F0900D23362 /* ExerciseTemplate.swift in Sources */,
+				E07691172CB41F0900D23362 /* Exercise.swift in Sources */,
+				E07691182CB41F0900D23362 /* Workout.swift in Sources */,
+				E07691112CB41F0100D23362 /* StatisticView.swift in Sources */,
+				E07691122CB41F0100D23362 /* ExerciseView.swift in Sources */,
+				E07691142CB41F0100D23362 /* ContentView.swift in Sources */,
+				E07691152CB41F0100D23362 /* StrengthExerciseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E076911E2CB4233B00D23362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07691342CB4239D00D23362 /* ExerciseView.swift in Sources */,
+				E07691352CB4239D00D23362 /* StreakInfoView.swift in Sources */,
+				E07691362CB4239D00D23362 /* TimeExerciseGraphView.swift in Sources */,
+				E07691432CB423EC00D23362 /* Exercise.swift in Sources */,
+				E07691442CB423EC00D23362 /* ExerciseTemplate.swift in Sources */,
+				E07691422CB423B200D23362 /* Workout.swift in Sources */,
+				E07691372CB4239D00D23362 /* ExerciseTemplateListView.swift in Sources */,
+				E07691382CB4239D00D23362 /* ManagementView.swift in Sources */,
+				E07691392CB4239D00D23362 /* AddTemplateView.swift in Sources */,
+				E076913A2CB4239D00D23362 /* ContentView.swift in Sources */,
+				E076913B2CB4239D00D23362 /* StrengthExerciseGraphView.swift in Sources */,
+				E076913C2CB4239D00D23362 /* StatisticView.swift in Sources */,
+				E076913D2CB4239D00D23362 /* DonateView.swift in Sources */,
+				E076913E2CB4239D00D23362 /* TimeExerciseView.swift in Sources */,
+				E076913F2CB4239D00D23362 /* HomeView.swift in Sources */,
+				E07691402CB4239D00D23362 /* StrengthExerciseView.swift in Sources */,
+				E07691412CB4239D00D23362 /* WorkoutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0E411C82C529D23003E8BC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,7 +455,135 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E07691022CB41EE900D23362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07690F52CB41EE800D23362 /* logym watch Watch App */;
+			targetProxy = E07691012CB41EE900D23362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		E07691052CB41EE900D23362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconWatch;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"logym watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UJPX797J69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "logym-watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = logym;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.timniklasgruel.logym;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logym.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E07691062CB41EE900D23362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconWatch;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "logym watch Watch App/logym watch Watch AppRelease.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"logym watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UJPX797J69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "logym-watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = logym;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.timniklasgruel.logym;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logym.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		E07691322CB4233E00D23362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"logym vision/Preview Content\"";
+				DEVELOPMENT_TEAM = UJPX797J69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timniklasgruel.logym-vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E07691332CB4233E00D23362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "logym vision/logym visionRelease.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"logym vision/Preview Content\"";
+				DEVELOPMENT_TEAM = UJPX797J69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		E0E411D82C529D24003E8BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -286,7 +641,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = xros;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				XROS_DEPLOYMENT_TARGET = 1.2;
@@ -343,7 +698,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = xros;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 				XROS_DEPLOYMENT_TARGET = 1.2;
@@ -374,16 +729,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -412,16 +767,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.timniklasgruel.logym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -429,6 +784,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E07691042CB41EE900D23362 /* Build configuration list for PBXNativeTarget "logym watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07691052CB41EE900D23362 /* Debug */,
+				E07691062CB41EE900D23362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07691312CB4233E00D23362 /* Build configuration list for PBXNativeTarget "logym vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07691322CB4233E00D23362 /* Debug */,
+				E07691332CB4233E00D23362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E0E411C72C529D23003E8BC5 /* Build configuration list for PBXProject "logym" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

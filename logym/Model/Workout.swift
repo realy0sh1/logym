@@ -10,7 +10,7 @@ import SwiftData
 
 @Model
 class Workout: Identifiable, Hashable {
-    let id: UUID = UUID()
+    var id: UUID = UUID()
     // for CloudKit each var needs to have a default value or be an optional
     var startDate: Date = Date.now
     var endDate: Date?

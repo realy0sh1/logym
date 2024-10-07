@@ -18,6 +18,8 @@ struct ExerciseView: View {
         } else {
             TimeExerciseView(exercise: exercise)
         }
+        
+        
     }
 }
 

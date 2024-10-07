@@ -42,31 +42,42 @@ struct StrengthExerciseView: View {
 
     var body: some View {
         VStack {
-            HStack {
-                Image(systemName: allSetsDone ? "checkmark.circle" : "\(setsLeft).circle")
-                    .font(.largeTitle)
-                    .foregroundStyle(allSetsDone ? Color("brightOrange") : Color("superDarkGray"))
-                    .symbolEffect(.bounce, value: allSetsDone)
-                Text(exercise.template?.name ?? "Unknown template")
-                    .foregroundStyle(Color("superDarkGray"))
-                Spacer()
-                VStack(alignment: .trailing) {
-                    HStack {
-                        Text("\(repetitions.formatted()) x")
-                            .fixedSize()
-                            .foregroundStyle(Color("superDarkGray"))
-                        Stepper("", value: $repetitions, in: 1...50, step: 1)
-                            .labelsHidden()
-                    }
-                    HStack {
-                        Text(String(format: "%.1f %@", weight, Locale.current.measurementSystem == .metric ? "kg" : "lb" ))
-                            .fixedSize()
-                            .foregroundStyle(Color("superDarkGray"))
-                        Stepper("", value: $weight, in: 0...999, step: 0.5)
-                            .labelsHidden()
+            ZStack {
+                HStack {
+                    Image(systemName: allSetsDone ? "checkmark.circle" : "\(setsLeft).circle")
+                        .font(.largeTitle)
+                        .foregroundStyle(allSetsDone ? Color("brightOrange") : Color("superDarkGray"))
+                        .symbolEffect(.bounce, value: allSetsDone)
+                    
+                    Spacer()
+                }
+                HStack {
+                    Spacer()
+                    VStack(alignment: .trailing) {
+                        HStack {
+                            Text("\(repetitions.formatted()) x")
+                                .fixedSize()
+                                .foregroundStyle(Color("superDarkGray"))
+                            Stepper("", value: $repetitions, in: 1...50, step: 1)
+                                .labelsHidden()
+                                #if os(watchOS)
+                                    .frame(width: 70)
+                                #endif
+                        }
+                        HStack {
+                            Text(String(format: "%.1f %@", weight, Locale.current.measurementSystem == .metric ? "kg" : "lb" ))
+                                .fixedSize()
+                                .foregroundStyle(Color("superDarkGray"))
+                            Stepper("", value: $weight, in: 0...999, step: 0.5)
+                                .labelsHidden()
+                                #if os(watchOS)
+                                    .frame(width: 70)
+                                #endif
+                        }
                     }
                 }
             }
+            
             
             Divider()
             

@@ -36,10 +36,16 @@ struct ExerciseTemplateListView: View {
                     }
                 }
             }
+            #if !os(watchOS)
             .listRowBackground(Color("almostBlack"))
+            #endif
         }
         .scrollContentBackground(.hidden)
+        #if os(watchOS)
+        .background(.black)
+        #else
         .background(Color("superLightGray"))
+        #endif
         .navigationTitle("Statistics")
     }
 }

@@ -13,7 +13,7 @@ enum WorkoutType: Codable, CaseIterable { case strength, time }
 
 @Model
 class ExerciseTemplate: Identifiable {
-    let id: UUID = UUID()
+    var id: UUID = UUID()
     var name: String = "Exercise Template"
     var bodyPart: BodyPart = BodyPart.full
     var type: WorkoutType = WorkoutType.strength

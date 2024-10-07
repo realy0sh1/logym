@@ -36,9 +36,11 @@ struct StatisticView: View {
     var body: some View {
         NavigationStack {
             ZStack {
+                #if !os(watchOS)
                 Color("offWhite").ignoresSafeArea()
-                
+                #endif
                 VStack {
+                    #if !os(watchOS)
                     Button {
                         showSteakInfo = true
                     } label: {
@@ -50,11 +52,12 @@ struct StatisticView: View {
                     }
                     .buttonStyle(.plain)
                     .padding()
-
+                    #endif
                     ExerciseTemplateListView(sort: SortDescriptor(\ExerciseTemplate.name), searchString: "")
                         //.searchable(text: $searchText)
                 }
             }
+            #if !os(watchOS)
             .toolbar {
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button() {
@@ -64,14 +67,17 @@ struct StatisticView: View {
                     }
                 }
             }
+            #endif
         }
         .preferredColorScheme(.dark)
         .sheet(isPresented: $showSteakInfo) {
             StreakInfoView()
         }
+#if !os(watchOS)
         .sheet(isPresented: $showDonate) {
             DonateView()
         }
+#endif
     }
     
     func deleteTemplate(_ indexSet: IndexSet) {

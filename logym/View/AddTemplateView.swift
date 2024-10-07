@@ -36,7 +36,9 @@ struct AddTemplateView: View {
                             Text(String(describing: type))
                         }
                     }
+                    #if !os(watchOS)
                     .pickerStyle(.segmented)
+                    #endif
                 }
                 
                 Section("Body part") {
@@ -46,8 +48,9 @@ struct AddTemplateView: View {
                                 Text(String(describing: part))
                             }
                         }
+                        #if !os(watchOS)
                         .pickerStyle(.wheel)
-
+                        #endif
                         Button {
                             guard !templateName.isEmpty else { return }
                             withAnimation {
@@ -64,7 +67,11 @@ struct AddTemplateView: View {
                         } label: {
                             Text("Create")
                                 .foregroundStyle(Color("offWhite"))
+                                #if os(watchOS)
+                                .frame(width: 160, height: 60)
+                                #else
                                 .frame(width: 300, height: 60)
+                                #endif
                                 .background(Color("brightOrange"))
                                 .clipShape(RoundedRectangle(cornerRadius: 20))
                         }
@@ -75,6 +82,7 @@ struct AddTemplateView: View {
             }
             .navigationTitle("New Template")
             .navigationBarTitleDisplayMode(.inline)
+            #if !os(watchOS)
             .toolbar {
                 ToolbarItem {
                     Button {
@@ -84,6 +92,7 @@ struct AddTemplateView: View {
                     }
                 }
             }
+            #endif
         }
     }
 }
